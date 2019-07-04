@@ -1,14 +1,13 @@
 {
-    "posts": [
-        { "id": 1, "title": "Post 1" },
-        { "id": 2, "title": "Post 2" },
-        { "id": 3, "title": "Post 3" }
-    ],
-    "comments": [
-        { "id": 1, "body": "some comment", "postId": 1 },
-        { "id": 2, "body": "some comment", "postId": 1 }
-    ],
-    "profile": {
-        "name": "typicode"
-    }
+    sku: "sku001",
+    locationCode: "glob00",
+    channelCode: "dun00"
+    prices: [{
+        id: "1234-5678-9012-3456",
+        priceTaxed: 9.99,
+        startDate: "2019-01-01 00:00:00",
+        endDate: "2020-01-01 23:59:59",
+        currency: "gbp",
+        taxRate: 20.00
+    }]
 }
